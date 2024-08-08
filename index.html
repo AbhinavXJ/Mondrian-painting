@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+  
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+   .container{
+    width: 748px;
+    height: 748px;
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 22px;
+    gap:9px;
+    background-color: #000;
+    
+
+
+
+   }
+   .red{
+    grid-column: 1/2;
+    background-color: #E72F24;
+   }
+   .row1grey{
+    grid-column: 2/5;
+    background-color:#F0F1EC ;
+   }
+   .row2greyleft{
+    grid-row: 2/4;
+    background-color: #F0F1EC;
+   }
+   .row2greymid{
+    grid-column:2/4;
+    grid-row: 2/4;
+
+    background-color: #F0F1EC;
+
+   }
+   .blue{
+    grid-row:2/3;
+    grid-column: 4/5;
+    background-color: #004592;
+    border-bottom: 10px solid #000;
+
+
+  }
+  .row2greyright{
+    grid-row:3/5;
+    grid-column:4/5;
+    background-color: #F0F1EC;
+
+  }
+  .blg{
+    grid-row:4/5;
+    grid-column:1/2;
+    background-color: #F0F1EC;
+
+
+  }
+
+  .yellow{
+    grid-row:4/5;
+    grid-column:2/3;
+   
+    background-color:  #F9D01E;
+
+  }
+  .black{
+    grid-column: 3/4;
+    grid-row:4/5;
+    background-color: #232629;
+  }
+
+
+
+
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+
+ <div class="red"></div>
+ <div class="row1grey"></div>
+ <div class="row2greyleft"></div>
+ <div class="row2greymid"></div>
+ <div class="row2greyright"></div>
+ <div class="blue"></div>
+ <div class="blg"></div>
+ <div class="yellow"></div>
+ <div class="black"></div>
+
+
+  </div>
+</body>
+
+</html>
